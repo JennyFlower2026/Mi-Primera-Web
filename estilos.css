@@ -1,0 +1,113 @@
+body {
+    font-family: Algerian, sans-serif;
+    background-color: #FFEBCD;
+    margin: 40px;
+}
+
+h1 {
+    color: #1a4d8f;
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #1a4d8f;
+    color: black;
+    padding: 20px 20px;
+    border: gray;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-servicios {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta-servicio {
+
+   .tarjeta-servicio:hover {
+    background-color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px gray;
+}
+
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 8px gray;
+    transition: 0.3s;
+}
+
+.tarjeta-servicio:hover {
+   background-color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 15px gray;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: white;
+    transform: translateY(-3px);
+}
+
+#listaServicios {
+    display: none;
+}
+
+#botonServicios {
+    padding: 10px 15px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#listaIndex {
+    display: none;
+}
+
+#botonIndex {
+    padding: 15px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
